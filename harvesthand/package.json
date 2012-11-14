@@ -1,0 +1,15 @@
+{
+  "name": "HarvestHand SlideDeck",
+  "main": "index.html",
+  "nodejs": true,
+  "window": {
+    "show": true,
+    "position": "mouse",
+    "width": 500,
+    "height": 500,
+    "icon": "icon.png",
+    "toolbar": false,
+    "title": "HarvestHand @ Refresh",
+    "fullscreen": false
+  }
+}
