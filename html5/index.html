@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Open Web Platform - HTML5 and Semantic Markup</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body class="impress-not-supported">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="fallback-message">
+            <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+            <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+        </div>
+
+        <h1 class="hidden">Open Web Platform - HTML5 and Semantic Markup</h1>
+
+        <!-- Add your site or application content here -->
+        <article id="impress">
+        
+            <h1 class="hidden">Refresh Annapolis Valley Slide Deck</h1>
+            
+            <section id="open-web" 
+                     class="step"
+                     data-x="0"
+                     data-y="0">
+                     
+                     <h1>Open Web Platform</h1>
+                     
+                     <figure>
+                         <img src="img/OpenWebPlatform.png"
+                              alt="Open Web Platform" />
+                         <figcaption><a href="http://www.w3c.tut.fi/talks/2012/0119-media-goes-accessible/">The W3C Open Web Platform</a></figcaption>
+                     </figure>
+                     
+                     <h2>HTML5 and Semantic Markup</h2>
+                     
+            </section>
+        
+            <section id="html4" 
+                     class="step"
+                     data-x="1000"
+                     data-y="0">
+                     
+                <h1 class="hidden">Early History of the Open Web</h1>
+                
+                <img src="img/Old_HTML_Logo.svg"
+                     alt="Old HTML Logo" />
+                <dl>
+                    <dt><abbr title="HyperText Markup Language">HTML</abbr></dt>
+                    <dd><time datetime="1991">1991</time></dd>
+                    
+                    <dt><abbr title="HyperText Markup Language">HTML</abbr> 2</dt>
+                    <dd><time datetime="1995-11-24">1994</time></dd>
+
+                    <dt><abbr title="Cascading Style Sheets">CSS</abbr> 1 + ECMAScript</dt>
+                    <dd><time datetime="1996">1996</time></dd>
+                    
+                    <dt><abbr title="HyperText Markup Language">HTML</abbr> 4</dt>
+                    <dd><time datetime="1997-12-18">1997</time></dd>
+                    
+                    <dt><abbr title="Cascading Style Sheets">CSS</abbr> 2</dt>
+                    <dd><time datetime="1998-05-12">1998</time></dd>
+                    
+                    <dt><abbr title="Extensible HyperText Markup Language">XHTML</abbr> 1</dt>
+                    <dd><time datetime="2000-01-26">2000</time></dd>
+                </dl>
+            </section>
+            
+            <section id="sleep"
+                     class="step"
+                     data-x="2000"
+                     data-y="0">
+                <h1 class="hidden"><abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr></h1>
+            
+                <img src="img/WHATWG.svg"
+                    alt="WHATWG" />
+                
+                <details>
+                    <summary><abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr> Shakedown</summary>
+                
+                    <ul>
+                        <li>Mozilla &amp; Opera take W3C to task on lack of innovation in HTML (<time datetime="2004-06-02">2004</time>).  W3C decides XML is the future.</li>
+                        <li><abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr> formed to advance new HTML standards</li>
+                        <li>Set out to draft: 
+                            <ol>
+                                <li>Web Forms 2.0: An incremental improvement of HTML4.01's forms.</li>
+                                <li>Web Apps 1.0: Features for Application Development in HTML.</li>
+                                <li>Web Controls 1.0: A specification describing mechanisms for
+    creating new interactive widgets.</li>
+                            </ol>
+                        </li>
+                        
+                        <li>W3C forms new HTML working group in <time datetime="2007-05-09">2007</time> around WHATWG's body of work</li>
+                        
+                        <li>In <time datetime="2009-07-02">2009</time>, the W3C lets the XHTML 2.0 Working Group's charter expire</li>
+                    </ul>
+                    
+                </details>
+                
+            </section>
+            
+            <section id="html5" 
+                     class="step"
+                     data-x="3000"
+                     data-y="0">
+                     
+                <h1 class="hidden">Enter HTML 5</h1>
+                <img src="img/HTML5-logo.svg" alt="HTML5" />
+
+                <dl>
+                    <dt><abbr title="HyperText Markup Language">HTML</abbr> 5.0 Draft</dt>
+                    <dd><time datetime="2008-01-22">Jan. 2008</time></dd>
+                
+                    <dt><abbr title="HyperText Markup Language">HTML</abbr> 5.0 Candidate</dt>
+                    <dd><time datetime="2012-12-17">Dec. 2012</time></dd>
+                    
+                    <dt><abbr title="HyperText Markup Language">HTML</abbr> 5.1 Draft</dt>
+                    <dd><time datetime="2012-12-17">Dec. 2012</time></dd>
+
+                    <dt><abbr title="HyperText Markup Language">HTML</abbr> 5.0 Rec.</dt>
+                    <dd><time datetime="2014">2014</time></dd>
+                    
+                    <dt><abbr title="HyperText Markup Language">HTML</abbr> 5.1 Rec.</dt>
+                    <dd><time datetime="2016">2016</time></dd>
+                    
+                    <dt><abbr title="HyperText Markup Language">HTML</abbr> 5.2 Draft</dt>
+                    <dd><time datetime="2015">2015</time></dd>
+                    
+                    <dt><abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr> <abbr title="HyperText Markup Language">HTML</abbr></dt>
+                    <dd><time datetime="2012">2012</time> - &infin;</dd>
+                </dl>
+            </section>
+            
+            <section id="the-cult-of-jobs"
+                     class="step"
+                     data-x="4000"
+                     data-y="0">
+                     
+                 <h1 class="hidden">Thoughts on Flash</h1>
+                 
+                 <img src="img/steve_jobs_flash1.jpg"
+                     alt="Steve Jobs" />
+                 
+                 <blockquote>
+                 "[Adobe] Flash is no longer necessary to watch video or consume any kind of web content" and that "new open standards created in the mobile era, such as HTML5, will win"
+                    <cite>Steve Jobs - <time datetime="2010-04">April, 2010</time></cite>
+                 </blockquote>    
+            </section>
+            
+            <section id="landscape"
+                     class="step"
+                     data-x="5000"
+                     data-y="0">
+                     
+                 <h1 class="hidden">Lay of the Land</h1>
+                     
+                 <img src="img/HTML5-APIs-and-related-technologies-by-Sergey-Mavrody.png"
+                     alt="HTML5 APIs and Related Technologies: taxonomy and specification status. Illustration by Sergey Mavrody. From Sergey's HTML5 & CSS3 Quick Reference book." />
+                 
+            </section>
+            
+            <section id="silence"
+                     class="step"
+                     data-x="-1000"
+                     data-y="1000">
+            
+                <h1>Moment of Silence</h1>
+               
+                <a href="http://www.flickr.com/photos/ehsank/279364315/sizes/z/in/photostream/">
+                    <img src="img/silence.jpg"
+                         alt="Silence">
+                </a>
+                
+                <p>For the fallen elements of the HTML canon.</p>
+            </section>
+            
+            <section id="rip"
+                     class="step"
+                     data-x="0"
+                     data-y="1000">
+                     
+                <h1><abbr title="Rest In Peace">RIP</abbr></h1>
+            
+                <a href="http://pixabay.com/en/dead-outline-marks-person-human-30112/">
+                    <img src="img/dead.png" 
+                         alt="Dead Outline Marks Person Human Scene Body Crime" />
+                </a>
+            
+                <p>Euthanized because of their purely presentational use</p>
+            
+                <ul>
+                    <li><code>basefont</code></li>
+                    <li><code id="big">big</code></li>
+                    <li><code id="center">center</code></li>
+                    <li><code id="font">font</code></li>
+                    <li><code id="strike">strike</code></li>
+                    <li><code id="tt">tt</code></li>
+                </ul>
+            
+            </section>
+            
+            <section id="rip2"
+                     class="step"
+                     data-x="1000"
+                     data-y="1000">
+                
+                <h1><abbr title="Rest In Peace">RIP</abbr></h1>
+                
+                <a href="http://pixabay.com/en/dead-skull-cartoon-crossbones-29796/">
+                    <img src="img/crossbones.png" 
+                         alt="Dead Skull Cartoon Crossbones Bones Free Poison" />
+                </a>
+                
+                <p>Destroyed because of their offensive abuse of usabilty and accessibility</p>
+                    
+                <ul>
+                    <li><code>frame</code></li>
+                    <li><code>frameset</code></li>
+                    <li><code>noframes</code></li>
+                </ul>
+
+            </section>
+            
+            <section id="rip3"
+                     class="step"
+                     data-x="2000"
+                     data-y="1000">
+                
+                <h1><abbr title="Rest In Peace">RIP</abbr></h1>
+                
+                <a href="http://pixabay.com/en/dead-end-street-sign-sign-road-777/">
+                    <img src="img/dead-end.jpg" 
+                         alt="Dead End Street Sign Sign Road Traffic" />
+                </a>
+                
+                <p>Kicked to the curb because they are redundant</p>
+                    
+                <ul>
+                    <li><code>acronym</code> dropped in favour of <code>abbr</code> for abbreviations.</li>
+                    <li><code>applet</code> dropped in favour of <code>object</code>.</li>
+                    <li><code>isindex</code> (WTF?!) dropped in favour of form controls.</li>
+                    <li><code>dir</code> has been obsoleted in favor of <code>ul</code>.</li>
+                </ul>
+            </section>
+            
+            <section id="redefined"
+                     class="step"
+                     data-x="3000"
+                     data-y="1000">
+                
+                <h1>Redefined to be Semantic</h1>
+                
+                <ul>
+                    <li><code>b</code> utilitarian attention such as an article lead.</li>
+                    <li><code>cite</code> only good for title citations (not author).</li>
+                    <li><code>dl</code> no longer recommended for dialog.</li>
+                    <li><code>hr</code> to represent paragraph level thematic break.</li>
+                    <li><code>i</code> to represent alt. voice or mood (ie: stuff in other languages).</li>
+                    <li><code>small</code> side comment or small print.</li>
+                    <li><code>strong</code> represents importance and not strong emphasis (<strong>Warning!</strong> Kittens <em>are</em> dangerous.).</li>
+                </ul>
+            </section>
+            
+            <section id="birth"
+                     class="step"
+                     data-x="0"
+                     data-y="2000">
+            
+                <h1>Let there be new elements</h1>
+
+                <ul>
+                    <li><code>section</code></li>
+                    <li><code>article</code></li>
+                    <li><code>aside</code></li>
+                    <li><code>hgroup</code></li>
+                    <li><code>header</code></li>
+                    <li><code>footer</code></li>
+                    <li><code>nav</code></li>
+                    <li><code>figure</code></li>
+                    <li><code>figcaption</code></li>
+
+                    <li><code>details</code></li>
+                    <li><code>summary</code></li>
+                    
+                    <li><code>mark</code></li>
+                    <li><code>time</code></li>
+                    <li><code>meter</code></li>
+                    <li><code>progress</code></li>
+                                        
+                    <li><code>video</code></li>
+                    <li><code>audio</code></li>
+                    <li><code>source</code></li>
+                    <li><code>track</code></li>
+                    <li><code>embed</code></li>
+
+                    <li><code>ruby</code></li>
+                    <li><code>rt</code></li>
+                    <li><code>rp</code></li>
+                    <li><code>bdi</code></li>
+                    <li><code>wbr</code></li>
+                    <li><code>canvas</code></li>
+                    <li><code>command</code></li>
+
+                    <li><code>datalist</code></li>
+                    <li><code>keygen</code></li>
+                    <li><code>output</code></li>
+                </ul>
+            
+            </section>
+            
+            <section id="semantics"
+                     class="step"
+                     data-x="1000"
+                     data-y="2000">
+            
+                <h1>Semantic HTML</h1>
+            
+                <figure>
+                    <img src="img/the-farside-labels.jpg"
+                         alt="The Far Side" />
+                
+                    <figcaption>Structural &amp; interactive</figcaption>
+                </figure>            
+            </section>
+            
+            <section id="blog-neutral"
+                class="step"
+                data-x="2000"
+                data-y="2000">
+                
+                <h1>Blog: Neutral HTML</h1>
+                
+                <div class="blog">
+                    <header>
+                        &lt;div class=&quot;header&quot;&gt;
+                    </header>
+                    
+                    <nav>
+                        &lt;div class=&quot;side-bar&quot;&gt;
+                    </nav>
+                    
+                    <div>
+                        &lt;div class=&quot;content&quot;&gt;
+                        
+                        <article>
+                            &lt;div class=&quot;article&quot;&gt;
+                        </article>
+                        
+                        <article>
+                            &lt;div class=&quot;article&quot;&gt;
+                        </article>
+                    </div>
+                    
+                    <footer>
+                        &lt;div class=&quot;footer&quot;&gt;
+                    </footer>
+                </div>
+                
+            </section>
+            
+            <section id="blog-semantic"
+                class="step"
+                data-x="3000"
+                data-y="2000">
+                
+                <h1>Blog: Semantic HTML</h1>
+                
+                <div class="blog">
+                    <header>
+                        &lt;header&gt;
+                    </header>
+                    
+                    <nav>
+                        &lt;nav&gt;
+                    </nav>
+                    
+                    <div>
+                        &lt;div&gt;
+                        
+                        <article>
+                            &lt;article&gt;
+                        </article>
+                        
+                        <article>
+                            &lt;article&gt;
+                        </article>
+                    </div>
+                    
+                    <footer>
+                        &lt;footer&gt;
+                    </footer>
+                </div>
+                
+            </section>
+            
+            <section id="why"
+                class="step"
+                data-x="4000"
+                data-y="2000">
+            
+                <h1>Why?</h1>
+                
+                <ul>
+                    <li>
+                        Because we respect ourself
+                        <ul>
+                            <li>A cure for DIVITIS</li>
+                            <li>CSS & HTML is easier to read &amp; therefore maintain</li>
+                            <li>Counting DIVs to check that they are balanced sucks</li>
+                            <li>More consise HTML and CSS selectors</li>
+                        </ul>
+                    </li>
+                    <li>Content extraction</li>
+                    <li>Search Engine Optimization *</li>
+                    <li>Accessibility *</li>
+                    <li>Use HTML5 semantic elements for future compatibility</li>
+                </ul>
+                
+                <aside>
+                    <p>* New HTML5 elements may be of neutral value at this point in time, but the future looks better.</p>
+                </aside>
+            </section>
+            
+            <section id="because"
+                class="step"
+                data-x="5000"
+                data-y="2000">
+                
+                <h1>Because</h1>
+                
+                <img src="img/lawson.jpeg"
+                    alt="Bruce Lawson">
+                
+                <blockquote>Semantics communicate <em>meaning</em>, and once that is established, machines can do something <em>meaningful</em> with that data, without having to develop and use algorithms to guess.</blockquote>
+                <p>Bruce Lawson, open web technology evangalist for Opera in <a href="http://coding.smashingmagazine.com/2011/11/18/html5-semantics/"><cite>HTML5 Semantics</cite></a></p>
+            </section>
+            
+             <section id="post-semantic"
+                class="step"
+                data-x="6000"
+                data-y="2000">
+                
+                <h1>More</h1>
+                
+                <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;title&gt;My Blog: Blog Post&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+
+    &lt;header&gt;
+      &lt;h1&gt;My Blog&lt;/h1&gt;
+    &lt;/header&gt;
+
+    &lt;nav&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;nav&lt;/a&gt;&lt;li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;nav 2&lt;/a&gt;&lt;li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;nav 3&lt;/a&gt;&lt;li&gt;        
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+
+    &lt;article&gt;
+      &lt;header&gt;
+        &lt;hgroup&gt;
+          &lt;h1&gt;Blog Post&lt;/h1&gt;
+          &lt;h2&gt;Cool to the last drop&lt;/h2&gt;
+        &lt;/hgroup&gt;
+        &lt;p&gt;&lt;time datetime=&quot;2020-02-26&quot;&gt;Wed, Feb. 26th, 2020&lt;/time&gt; by &lt;a href=&quot;&quot; rel=&quot;author&quot;&gt;Mike&lt;/a&gt;.&lt;/p&gt;
+      &lt;/header&gt;
+      
+      &lt;section&gt;
+        &lt;h1&gt;Summary&lt;/h1&gt;
+        &lt;p /&gt;
+      &lt;/section&gt;
+
+      &lt;aside&gt;
+        &lt;h1&gt;Glossary&lt;/h1&gt;
+        &lt;dl&gt;
+          &lt;dt&gt;Lorem&lt;/dt&gt;
+          &lt;dd&gt;ipsum dolor sit amet&lt;/dd&gt;
+        &lt;/dl&gt;
+      &lt;/aside&gt;
+
+      &lt;section&gt;
+        &lt;h1&gt;Chapter 1&lt;/h1&gt;
+        &lt;p /&gt;
+        
+        &lt;figure&gt;
+          &lt;img /&gt;
+          &lt;figcaption&gt;A rabid unicorn&lt;/figcaption&gt;
+        &lt;/figure&gt;
+      &lt;/section&gt;
+      
+      &lt;footer&gt;
+      
+        &lt;p&gt;Tags: &lt;a href=&quot;&quot;&gt;a&lt;/a&gt;, &lt;a href=&quot;&quot;&gt;b&lt;/a&gt;&lt;/p&gt;
+      
+        &lt;section&gt;
+          &lt;h1&gt;Comments&lt;/h1&gt;
+          
+          &lt;article&gt;
+            &lt;h1&gt;&lt;time datetime=&quot;2020-02-27&quot;&gt;Thu, Feb. 27th, 2020&lt;/time&gt; by &lt;a href=&quot;&quot; rel=&quot;author&quot;&gt;Betty&lt;/a&gt;.&lt;/h1&gt;
+            &lt;p&gt;Comment&lt;/p&gt;
+          &lt;/article&gt;
+          
+          &lt;article&gt;
+            &lt;h1&gt;&lt;time datetime=&quot;2020-02-28&quot;&gt;Fri, Feb. 28th, 2020&lt;/time&gt; by &lt;a href=&quot;&quot; rel=&quot;author&quot;&gt;Fran&lt;/a&gt;.&lt;/h1&gt;
+            &lt;p&gt;Comment&lt;/p&gt;
+          &lt;/article&gt;
+        &lt;/section&gt;
+      &lt;/footer&gt;
+      
+    &lt;/article&gt;
+    
+    &lt;aside&gt;
+      &lt;h2&gt;Blogroll&lt;/h2&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Other Blog&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Other Blog 2&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/aside&gt;
+    
+    &lt;footer&gt;
+      &lt;p&gt;Copyleft&lt;/p&gt;
+    &lt;/footer&gt;
+    
+  &lt;/body&gt;
+&lt;/html&gt;
+                </pre>
+            
+            </section>
+            
+            <section 
+                id="outlining"
+                class="step"
+                data-x="7000"
+                data-y="2000">
+                
+                <h1>HTML5 Outline Algorithm</h1>
+                <ol>
+                    <li>My Blog
+                        <ol>
+                            <li>Untitled Section</li>
+                            <li>Blog Post
+                                <ol>
+                                    <li>Summary</li>
+                                    <li>Glossary</li>
+                                    <li>Chapter 1</li>
+                                    <li>Comments
+                                        <ol>
+                                            <li>Thu, Feb. 27th, 2020 by Betty.</li>
+                                            <li>Fri, Feb. 28th, 2020 by Fran.</li>
+                                        </ol>
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>Blogroll</li>
+                        </ol>
+                    </li>
+                </ol>
+            </section>
+            
+            <section 
+                id="shims"
+                class="step"
+                data-x="8000"
+                data-y="2000">
+                
+                <h1>Backwards Compatiblity</h1>
+                
+                <a href="http://www.flickr.com/photos/egansnow/212842535/">
+                    <img src="img/shims.jpg"
+                         alt="shims">
+                </a>
+                
+                <ul>
+                    <li>Use <a href="https://github.com/aFarkas/html5shiv">HTML5 Shiv</a></li>
+                    <li>Love <a href="http://modernizr.com/">Modernizr</a> + HTML5 Shims</li>
+                </ul>
+            </section>
+            
+            <section id="microdata" 
+                     class="step"
+                     data-x="0"
+                     data-y="3000">
+                     
+                <h1>HTML5 Microdata</h1>
+                
+                <a href="http://www.freefoto.com/preview/13-41-2/Microscope">
+                    <img src="img/microscope.jpg"
+                        alt="microscope">
+                </a>
+                  
+                <p>A mechanism to annotate HTML to define common objects like <i>people</i>, <i>events</i>, <i>organizations</i>, <i>products</i>, etc...</p>
+                     
+            </section>
+            
+            <section id="microdata-attributes"
+                     class="step"
+                     data-x="1000"
+                     data-y="3000">
+                
+                <h1>New Element Attributes</h1>
+                
+                <dl>
+                    <dt><code>itemtype</code></dt>
+                    <dd>What we are talking about (Eg: <i>Person</i>)</dd>
+                
+                    <dt><code>itemprop</code></dt>
+                    <dd>Specific element of the overall item (Eg: <i>Name</i>)</dd>
+                
+                    <dt><code>itemscope</code></dt>
+                    <dd>What we are talking about is related to everything from here on in.</dd>
+                    
+                    <dt><code>itemid</code></dt>
+                    <dd>Unique id for what we are talking about</dd>
+                    
+                    <dt><code>itemref</code></dt>
+                    <dd>Allows you to tie together elements of the thing we are talking about that are not in scope</dd>
+                </dl>
+            </section>
+            
+            <section id="microdata-person"
+                     class="step"
+                     data-x="2000"
+                     data-y="3000">
+                     
+                <h1>Microdata Person Vocabulary</h1>
+                     
+                <pre>
+&lt;div itemscope itemtype=&quot;http://schema.org/Person&quot;&gt;
+  &lt;p&gt;Name: &lt;i itemprop=&quot;name&quot;&gt;Michael Caplan&lt;/i&gt;&lt;/p&gt;
+  &lt;p&gt;Title: &lt;i itemprop=&quot;jobTitle&quot;&gt;Web Developer&lt;/i&gt;&lt;/p&gt;
+&lt;/div&gt;
+                </pre>
+                     
+            </section>
+            
+            <section id="rich-snippets"
+                     class="step"
+                     data-x="3000"
+                     data-y="3000">
+                 
+                <h1>Microformats, <attr title="Resource Description Framework attributes">RDFa</attr>, &amp; Microdata</h1>
+                     
+                 <a href="http://xkcd.com/927/">
+                     <img src="img/standards.png"
+                          alt="Standards">
+                 </a>
+                 
+                 <h2>Rich Snippets</h2>
+                 
+            </section>
+            
+            <section id="microformats"
+                     class="step"
+                     data-x="4000"
+                     data-y="3000">
+            
+                <h1>Microformat hCard</h1>
+                
+                <pre>       
+&lt;div class=&quot;vcard&quot;&gt;
+  &lt;p&gt;Name: &lt;span class=&quot;fn&quot;&gt;Mike Caplan&lt;/span&gt;&lt;/p&gt;
+  &lt;p&gt;Title: &lt;span class=&quot;title&quot;&gt;Web Developer&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+                </pre>
+                
+                <ul>
+                    <li>Simple structure based on <code>class</code>, <code>rel</code>, <code>rev</code> attribs.</li>
+                    <li>Supported by major search engines.</li>
+                    <li>Grassroots development of formats not through standards bodies.</li>
+                    <li>Class conflicts.</li>
+                    <li>hCalendar, hCard, hMedia, hNews, hProduct, hRecipe, rReview, XFN...</li>
+                </ul>
+                
+            </section>
+
+            <section id="rdfa"
+                     class="step"
+                     data-x="5000"
+                     data-y="3000">
+            
+                <h1>RDFa Person Vocabulary</h1>
+                
+                <pre>       
+&lt;div xmlns:v=&quot;http://rdf.data-vocabulary.org/#&quot; typeof=&quot;v:Person&quot;&gt;
+  &lt;p&gt;Name: &lt;span property=&quot;v:name&quot;&gt;Mike Caplan&lt;/span&gt;&lt;/p&gt;
+  &lt;p&gt;Title: &lt;span property=&quot;v:title&quot;&gt;Web Developer&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+                </pre>
+                
+                <ul>
+                    <li>More complex structure based on attribs.</li>
+                    <li>Supported by major search engines.</li>
+                    <li>Developers tend to get them wrong.</li>
+                    <li>Numerous defined vocabularies.</li>
+                </ul>
+                
+            </section>
+            
+            <section id="microdata-why"
+                     class="step"
+                     data-x="6000"
+                     data-y="3000">
+            
+                <h1>Why Bother?</h1>
+            
+                <p>Search engines (Bing, Google, Yahoo! &amp; Yandex) use these annotations to improve the display of search results.</p>
+                
+                <p>Better search results, more traffic</p>
+                
+            </section>
+            
+            <section id="schema-org"
+                     class="step"
+                     data-x="7000"
+                     data-y="3000">
+                     
+                <h1>Microdata Vocabularies from <a href="http://schema.org/">schema.org</a></h1>
+                
+                <ul>
+                    <li>Creative works: <a href="http://schema.org/CreativeWork">CreativeWork</a>, <a href="http://schema.org/Book">Book</a>, <a href="http://schema.org/Movie">Movie</a>, <a href="http://schema.org/MusicRecording">MusicRecording</a>, <a href="http://schema.org/Recipe">Recipe</a>, <a href="http://schema.org/TVSeries">TVSeries</a> ...</li>
+                    <li>Embedded non-text objects: <a href="http://schema.org/AudioObject">AudioObject</a>, <a href="http://schema.org/ImageObject">ImageObject</a>, <a href="http://schema.org/VideoObject">VideoObject</a></li>
+                    <li><a href="http://schema.org/Event">Event</a></li>
+                    <li><a href="http://schema.org/Organization">Organization</a></li>
+                    <li><a href="http://schema.org/Person">Person</a></li>
+                    <li><a href="http://schema.org/Place">Place</a>, <a href="http://schema.org/LocalBusiness">LocalBusiness</a>, <a href="http://schema.org/Restaurant">Restaurant</a> ...</li>
+                    <li><a href="http://schema.org/Product">Product</a>, <a href="http://schema.org/Offer">Offer</a>, <a href="http://schema.org/AggregateOffer">AggregateOffer</a></li>
+                    <li><a href="http://schema.org/Review">Review</a>, <a href="http://schema.org/AggregateRating">AggregateRating</a></li>
+                </ul>
+                     
+            </section>
+            
+            <section id="events"
+                     class="step microdata-examples"
+                     data-x="8000"
+                     data-y="3000">
+                     
+                <h1>Events</h1>
+            
+                <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&answer=164506&topic=1088474&ctx=topic">
+                    <img src="img/multipleevent_en.gif"
+                         alt="Google example of an event">
+                 </a>
+                 
+                <pre>
+&lt;div itemscope itemtype=&quot;http://schema.org/Event&quot;&gt;
+  &lt;a href=&quot;http://www.example.com/events/spinaltap&quot; itemprop=&quot;url&quot; &gt;
+    &lt;span itemprop=&quot;summary&quot;&gt;Spinal Tap&lt;/span&gt;
+  &lt;/a&gt;
+   &lt;img itemprop=&quot;photo&quot; src=&quot;spinal_tap.jpg&quot; /&gt;
+
+  &lt;span itemprop=&quot;description&quot;&gt;After their highly-publicized search for a new drummer,
+   Spinal Tap kicks off their latest comeback tour with a San
+   Francisco show.&lt;/span&gt;
+
+  When:
+  &lt;time itemprop=&quot;startDate&quot; datetime=&quot;2015-10-15T19:00-08:00&quot;&gt;Oct 15, 7:00PM&lt;/time&gt;—
+  &lt;time itemprop=&quot;endDate&quot; datetime=&quot;2015-10-15T19:00-08:00&quot;&gt;Oct 15, 9:00PM&lt;/time&gt;
+
+  Where:
+  &lt;span itemprop=&quot;location&quot; itemscope itemtype=&quot;http://schema.org/&amp;#8203;Organization&quot;&gt;
+     &amp;#8203;&lt;span itemprop=&quot;name&quot;&gt;Warfield Theatre&lt;/span&gt;
+     &amp;#8203;&lt;span itemprop=&quot;address&quot; itemscope itemtype=&quot;http://schema.org/Address&quot;&gt;
+         &lt;span itemprop=&quot;street-address&quot;&gt;982 Market St&lt;/span&gt;, 
+         &lt;span itemprop=&quot;locality&quot;&gt;San Francisco&lt;/span&gt;, 
+         &lt;span itemprop=&quot;region&quot;&gt;CA&lt;/span&gt;
+     &lt;/span&gt;
+     &lt;span itemprop=&quot;geo&quot; itemscope itemtype=&quot;http://schema.org/&amp;#8203;Geo&quot;&gt;
+        &lt;meta itemprop=&quot;latitude&quot; content=&quot;37.774929&quot; /&gt;
+        &lt;meta itemprop=&quot;longitude&quot; content=&quot;-122.419416&quot; /&gt;
+     &lt;/span&gt;
+  &lt;/span&gt;
+
+  Category: &lt;span itemprop=&quot;eventType&quot;&gt;Concert&lt;/span&gt;
+  &lt;span itemprop=&quot;ticketAggregate&quot; itemscope itemtype=&quot;http://schema.org/Offer-aggregate&quot;&gt; 
+    Tickets from $&lt;span itemprop=&quot;lowPrice&quot;&gt;10.00&lt;/span&gt;-$&lt;span itemprop=&quot;highPrice&quot;&gt;11.00&lt;/span&gt;
+    &lt;span itemprop=&quot;currency&quot; content=&quot;USD&quot; /&gt; 
+    &lt;span itemprop=&quot;offerCount&quot;&gt;2,000&lt;/span&gt; tickets available
+    &lt;a href=&quot;http://www.example.com/events/spinaltap/alltickets&quot; itemprop=&quot;offerurl&quot;&gt;
+      http://google.com/ticket&lt;/span&gt;See all available tickets&lt;/a&gt;
+  &lt;/span&gt;
+  &lt;span itemprop=&quot;tickets&quot; itemscope itemtype=&quot;http://schema.org/Offer&quot;&gt; 
+    &lt;a href=&quot;http://www.example.com/events/spinaltap/presale&quot; itemprop=&quot;offerurl&quot;&gt;Presale tickets&lt;/a&gt; 
+    &lt;span itemprop=&quot;price&quot;&gt;$10&lt;/span&gt;&lt;span itemprop=&quot;currency&quot; content=&quot;USD&quot; /&gt; 
+      till &lt;time itemprop=&quot;priceValidUntil&quot; datetime=&quot;2015-11-10&quot;&gt;10 November 2015&lt;/time&gt; 
+      (&lt;span itemprop=&quot;quantity&quot;&gt;1000&lt;/span&gt; available)  
+  &lt;/span&gt; 
+  &lt;span itemprop=&quot;tickets&quot; itemscope itemtype=&quot;http://schema.org/Offer&quot;&gt; 
+    &lt;a href=&quot;http://www.example.com/events/spinaltap/tickets&quot; itemprop=&quot;offerurl&quot;&gt;Full-price tickets&lt;/a&gt; 
+    &lt;span itemprop=&quot;price&quot;&gt;$11&lt;/span&gt;&lt;span itemprop=&quot;currency&quot; content=&quot;USD&quot; /&gt; 
+  &lt;/span&gt;
+&lt;/div&gt;
+                </pre>
+            </section>
+            
+            <section id="music"
+                     class="step microdata-examples"
+                     data-x="9000"
+                     data-y="3000">
+                     
+                <h1>Music</h1>
+            
+                <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&answer=1623047&topic=1088474&ctx=topic">
+                    <img src="img/music_en.gif"
+                         alt="Google example of music">
+                 </a>
+                 
+                <pre>
+&lt;div itemscope itemtype=&quot;http://schema.org/MusicGroup&quot;&gt;
+  &lt;h1 itemprop=&quot;name&quot;&gt;The Parrot Family&lt;/h1&gt;
+  &lt;h2&gt;Songs&lt;/h2&gt;
+    &lt;div itemprop=&quot;tracks&quot; itemscope itemtype=&quot;http://schema.org/MusicRecording&quot;&gt;
+      &lt;span itemprop=&quot;name&quot;&gt;Hello, World!&lt;/span&gt;
+      Length: &lt;meta itemprop=&quot;duration&quot; content=&quot;PT4M5S&quot; /&gt;4:05 -
+      14300 plays
+      &lt;meta itemprop=&quot;interactionCount&quot; content=&quot;UserPlays:14300&quot;/&gt;
+      &lt;a href=&quot;parrot-family-helloworld-play.html&quot; itemprop=&quot;audio&quot;&gt;Play&lt;/a&gt;
+      &lt;a href=&quot;parrot-family-helloworld-buy.html&quot; itemprop=&quot;offers&quot;&gt;Buy&lt;/a&gt;
+      From album: &lt;a href=&quot;parrot-family-yellow-album.html&quot; itemprop=&quot;inAlbum&quot;&gt;The Yellow Album&lt;/a&gt;
+    &lt;/div&gt;   
+  &lt;a href=&quot;parrot-family-helloworld-link.html&quot; itemprop=&quot;url&quot;&gt;Link&lt;/a&gt;
+  &lt;div itemscope itemtype=&quot;http://schema.org/MusicRecording&quot;&gt;
+    &lt;span itemprop=&quot;name&quot;&gt;Parrot Power&lt;/span&gt;
+    Length: &lt;meta itemprop=&quot;duration&quot; content=&quot;PT6M33S&quot; /&gt;6:33 -
+    11700 plays
+    &lt;meta itemprop=&quot;interactionCount&quot; content=&quot;UserPlays:11700&quot;/&gt;
+    &lt;a href=&quot;parrot-family-parrotpower-link.html&quot; itemprop=&quot;url&quot;&gt;Link&lt;/a&gt;
+    &lt;a href=&quot;parrot-family-parrotpower-play.html&quot; itemprop=&quot;audio&quot;&gt;Play&lt;/a&gt;
+    &lt;a href=&quot;parrot-family-parrotpower-buy.html&quot; itemprop=&quot;offers&quot;&gt;Buy&lt;/a&gt;
+    From album: &lt;a href=&quot;parrot-family-yellow-album.html&quot;
+      itemprop=&quot;inAlbum&quot;&gt;The Yellow Album&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+                </pre>
+            </section>
+
+            <section id="recipes"
+                     class="step microdata-examples"
+                     data-x="10000"
+                     data-y="3000">
+                     
+                <h1>Recipes</h1>
+            
+                <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&answer=1623047&topic=1088474&ctx=topic">
+                    <img src="img/recipe_en.png"
+                         alt="Google example of recipes">
+                 </a>
+                 
+                <pre>
+&lt;div itemscope itemtype=&quot;http://schema.org/Recipe&quot; &gt;
+  &lt;h1 itemprop=&quot;name&quot;&gt;Grandma's Holiday Apple Pie&lt;/h1&gt;
+  &lt;img itemprop=&quot;photo&quot; src=&quot;apple-pie.jpg&quot; /&gt; 
+  By &lt;span itemprop=&quot;author&quot;&gt;Carol Smith&lt;/span&gt;
+  Published: &lt;time datetime=&quot;2009-11-05&quot; itemprop=&quot;published&quot;&gt;
+    November 5, 2009&lt;/time&gt;
+  &lt;span itemprop=&quot;summary&quot;&gt;This is my grandmother's apple pie recipe. I like to add a
+    dash of nutmeg.&lt;/span&gt;
+  &lt;span itemprop=&quot;review&quot; itemscope itemtype=&quot;http://schema.org/Review-aggregate&quot;&gt;
+    &lt;span itemprop=&quot;rating&quot;&gt;4.0&lt;/span&gt; stars based on
+    &lt;span itemprop=&quot;count&quot;&gt;35&lt;/span&gt; reviews &lt;/span&gt;
+  Prep time: &lt;time datetime=&quot;PT30M&quot; itemprop=&quot;prepTime&quot;&gt;30 min&lt;/time&gt;
+  Cook time: &lt;time datetime=&quot;PT1H&quot; itemprop=&quot;cookTime&quot;&gt;1 hour&lt;/time&gt;
+  Total time: &lt;time datetime=&quot;PT1H30M&quot; itemprop=&quot;totalTime&quot;&gt;1 hour 30 min&lt;/time&gt;
+  Yield: &lt;span itemprop=&quot;yield&quot;&gt;1 9&quot; pie (8 servings)&lt;/span&gt;
+  &lt;span itemprop=&quot;nutrition&quot; itemscope itemtype=&quot;http://schema.org/Nutrition&quot;&gt;
+    Serving size: &lt;span itemprop=&quot;servingSize&quot;&gt;1 medium slice&lt;/span&gt;
+    Calories per serving: &lt;span itemprop=&quot;calories&quot;&gt;250&lt;/span&gt;
+    Fat per serving: &lt;span itemprop=&quot;fat&quot;&gt;12g&lt;/span&gt;
+  &lt;/span&gt;
+  Ingredients:
+    &lt;span itemprop=&quot;ingredient&quot; itemscope itemtype=&quot;http://schema.org/RecipeIngredient&quot;&gt;
+      Thinly-sliced &lt;span itemprop=&quot;name&quot;&gt;apples&lt;/span&gt;:
+      &lt;span itemprop=&quot;amount&quot;&gt;6 cups&lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span itemprop=&quot;ingredient&quot; itemscope itemtype=&quot;http://schema.org/RecipeIngredient&quot;&gt;
+      &lt;span itemprop=&quot;name&quot;&gt;White sugar&lt;/span&gt;:
+      &lt;span itemprop=&quot;amount&quot;&gt;3/4 cup&lt;/span&gt;
+    &lt;/span&gt;
+  ...
+		  
+  Directions:
+    &lt;div itemprop=&quot;instructions&quot;&gt;
+      1. Cut and peel apples
+      2. Mix sugar and cinnamon. Use additional sugar for tart apples.
+      ...
+    &lt;/div&gt;
+&lt;/div&gt;
+                </pre>
+            </section>
+            
+            <section id="reviews"
+                     class="step microdata-examples"
+                     data-x="11000"
+                     data-y="3000">
+                     
+                <h1>Reviews</h1>
+            
+                <a href="http://support.google.com/webmasters/bin/answer.py?hl=en&answer=1623047&topic=1088474&ctx=topic">
+                    <img src="img/review.png"
+                         alt="Google example of a review">
+                 </a>
+                 
+                <pre>
+&lt;div itemscope itemtype=&quot;http://schema.org/Review-aggregate&quot;&gt;
+  &lt;span itemprop=&quot;itemreviewed&quot;&gt;L’Amourita Pizza&lt;/span&gt;
+  &lt;img itemprop=&quot;photo&quot; src=&quot;pizza.jpg&quot; /&gt;
+  &lt;span itemprop=&quot;rating&quot; itemscope itemtype=&quot;http://schema.org/Rating&quot;&gt;
+    &lt;span itemprop=&quot;average&quot;&gt;9&lt;/span&gt;
+    out of &lt;span itemprop=&quot;best&quot;&gt;10&lt;/span&gt;
+  &lt;/span&gt;
+  based on &lt;span itemprop=&quot;votes&quot;&gt;24&lt;/span&gt; ratings.
+  &lt;span itemprop=&quot;count&quot;&gt;5&lt;/span&gt; user reviews.
+&lt;/div&gt;
+                </pre>
+            </section>
+
+            <section id="resources" 
+                     class="step"
+                     data-x="0"
+                     data-y="4000">
+            
+                <h1>Resources</h1>
+                
+                <dl>
+                    <dt>
+                        <a href="http://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a>
+                    </dt>
+                    <dd>
+                        The source for open web standards
+                    </dd>
+                
+                    <dt>
+                        <a href="http://www.whatwg.org/"><abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr></a>
+                    </dt>
+                    <dd>
+                        The cutting edge of HTML development
+                    </dd>
+                
+                    <dt>
+                        <a href="http://html5doctor.com/">html5doctor</a>
+                    </dt>
+                    <dd>
+                        Awesome annotated element index
+                    </dd>
+                    
+                    <dt>
+                        <a href="http://www.webplatform.org/">WebPlatform.org</a>
+                    </dt>
+                    <dd>
+                        Unified web documents
+                    </dd>
+                    
+                    <dt>
+                        <a href="http://html5please.com/">HTML5 Please</a>
+                    </dt>
+                    <dd>
+                        Sound advice on the readyness of HTML5 features
+                    </dd>
+                    
+                    <dt>
+                        <a href="http://www.html5rocks.com/">HTML5 Rocks</a>
+                    </dt>
+                    <dd>
+                        Articles, news, presentations, demos
+                    </dd>
+                    
+                    <dt>
+                        <a href="http://support.google.com/webmasters/bin/topic.py?hl=en&topic=1088472&parent=21997&ctx=topic">Google on Rich Snippets</a>
+                    </dt>
+                    <dd>
+                        Examples and tools on rich snippets, including microdata
+                    </dd>
+                    
+                    <dt>
+                        <a href="http://schema.org/">schema.org</a>
+                    </dt>
+                    <dd>
+                        Collection of microdata vocabularies
+                    </dd>
+                </dl>
+            
+                     
+            </section>
+            
+            <section id="the-end" class="step" data-x="3000" data-y="1500" data-scale="10">
+                <h1>The End!</h1>
+            </section>
+        </article>
+
+        <script src="js/vendor/jquery-1.8.3.min.js"></script>
+        <script src="js/vendor/impress-0.5.3.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
